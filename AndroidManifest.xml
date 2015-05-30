@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pengabear.skokietalk" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bulletin"
+            android:label="@string/title_activity_bulletin" >
+        </activity>
+        <activity
+            android:name=".details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name=".Discuss"
+            android:label="@string/title_activity_discuss" >
+        </activity>
+        <activity
+            android:name=".POI"
+            android:label="@string/title_activity_poi" >
+        </activity>
+        <activity
+            android:name=".Petitions"
+            android:label="@string/title_activity_petitions" >
+        </activity>
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+    </application>
+
+</manifest>
